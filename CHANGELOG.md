@@ -1,3 +1,9 @@
+# 4.2.0 @sadespresso/qr.flutter
+
+- QR shows even when the image is loading. Meaning the UI will no longer jump
+- Now passes size to CustomPaint
+- Updated analysis options
+
 # 4.1.0
 - Bump `qr` dependency (from `^3.0.0` to `^3.0.1`).
 
