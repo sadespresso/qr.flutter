@@ -229,7 +229,7 @@ class _QrImageViewState extends State<QrImageView> {
       backgroundColor: widget.backgroundColor,
       padding: widget.padding,
       semanticsLabel: widget.semanticsLabel,
-      child: CustomPaint(painter: painter),
+      child: CustomPaint(painter: painter, size: Size.square(widget.size ?? 0)),
     );
   }
 
