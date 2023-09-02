@@ -1,6 +1,4 @@
 analyzer:
-  strong-mode:
-    implicit-dynamic: false
   errors:
     # treat missing required parameters as a warning (not a hint)
     missing_required_param: warning
@@ -9,12 +7,12 @@ analyzer:
     # allow having TODOs in the code
     todo: ignore
   exclude:
-    - '.idea/**'
-    - 'android/**'
-    - 'assets/**'
-    - 'build/**'
-    - 'ios/**'
-    - 'res/**'
+    - ".idea/**"
+    - "android/**"
+    - "assets/**"
+    - "build/**"
+    - "ios/**"
+    - "res/**"
 
 linter:
   rules:
@@ -55,7 +53,6 @@ linter:
     - prefer_function_declarations_over_variables
     - unnecessary_lambdas
     # parameters
-    - prefer_equal_for_default_values
     # variables
     - avoid_init_to_null
     # members
